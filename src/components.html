@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="100x App" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter"
+    />
+    <title>100x Ui</title>
+  </head>
+  <body class="bg-neutral-950 m-2">
+    <h2 class="bg-twitterblue text-center font-bold">Assignment 1.1</h2>
+    <div class="flex flex-row flex-wrap justify-center items-center">
+      <h2 class="text-neutral-50">Class Work</h2>
+      <!--Sign in Button with Goole icon-->
+      <button
+        class="w-334 flex justify-center items-center gap-2 bg-neutral-50 rounded-3xl py-2 px-6 shadow-3xl backdrop-blur-23 m-2 hover:bg-neutral-100 align-center"
+      >
+        <img
+          src="../public/images/google.svg"
+          alt="icon"
+          class="shrink-0 w-6 h-6"
+        />
+        <span
+          class="font-inter not-italic leading-normal text-16 align-center font-bold text-neutral-1000"
+          >Sign up with Google</span
+        >
+      </button>
+    </div>
+    <!--Sign up button-->
+    <button
+      class="flex items-center justify-center py-2 px-6 gap-2.5 w-334 rounded-65 backdrop-blur-23 shadow-3xl border border-solid border-color"
+    >
+      <section
+        class="font-inter leading-normal text-sm font-bold text-twitterblue"
+      >
+        Sign up
+      </section>
+    </button>
+    <br />
+    <!--Create an account button-->
+    <button
+      class="flex justify-center items-center px-6 py-2 gap-2.5 w-334 bg-neutral-50 rounded-65 hover:bg-neutral-200 backdrop-blur-23"
+    >
+      <section
+        class="font-inter text-center text-sm font-bold leading-normal text-neutral-1000"
+      >
+        Create an account
+      </section>
+    </button>
+    <!--Follow Button-->
+    <button
+      class="inline-flex justify-center items-center px-10 py-2 gap-2.5 rounded-30 bg-neutral-50 hover:bg-neutral-200 my-2 mr-2"
+    >
+      <section class="font-inter text-neutral-1000 font-bold leading-normal">
+        Follow
+      </section>
+    </button>
+
+    <!--Disabled Follow Button-->
+    <button
+      disabled
+      class="inline-flex justify-center items-center px-10 py-2 gap-2.5 rounded-30 cursor-not-allowed bg-neutral-50 disabled:opacity-50 hover:bg-neutral-200 my-2 mr-2"
+    >
+      <section class="font-inter text-neutral-1000 font-bold leading-normal">
+        Follow
+      </section>
+    </button>
+
+    <!--Disabled Create an account button-->
+    <button
+      disabled
+      class="flex justify-center items-center px-6 py-2 gap-2.5 w-334 cursor-not-allowed disabled:opacity-50 bg-neutral-50 rounded-65 my-2 hover:bg-neutral-200 backdrop-blur-23"
+    >
+      <section
+        class="font-inter text-center text-sm font-bold leading-normal text-neutral-1000"
+      >
+        Create an account
+      </section>
+    </button>
+    <!--Post button -->
+    <button
+      class="inline-flex justify-center items-center px-93 py-15 bg-twitterblue hover:bg-twitterblue_for_hover gap-2.5 rounded-full my-2 mr-2"
+    >
+      <section
+        class="font-inter text-neutral-50 text-base font-bold leading-normal"
+      >
+        Post
+      </section>
+    </button>
+    <!--Disabled Post Button-->
+    <button
+      disabled class="inline-flex justify-center cursor-not-allowed items-center px-93 py-15 bg-twitterblue hover:bg-twitterblue_for_hover disabled:opacity-50 gap-2.5 rounded-full m-2">
+      <section class="font-inter text-neutral-50 font-bold leading-normal">
+        Post
+      </section>
+    </button>
+
+    <!--Small Post button -->
+    <button
+      class="inline-flex justify-center items-center px-6 py-3 bg-twitterblue hover:bg-twitterblue_for_hover gap-2.5 rounded-30 my-2 mr-2">
+      <section class="font-inter text-neutral-50 text-base font-bold leading-normal">Post</section>
+    </button>
+
+    <!--Small Disabled Post button -->
+    <button disabled
+      class="inline-flex justify-center cursor-not-allowed items-center px-6 py-3 bg-twitterblue hover:bg-twitterblue_for_hover gap-2.5 disabled:opacity-50 rounded-30 my-2 mr-2">
+      <section class="font-inter text-neutral-50 text-base font-bold leading-normal">
+       Post
+      </section>
+    </button>
+
+    <!--Next button-->
+    <button  class="flex justify-center items-center px-6 py-3 gap-2.5 w-442 bg-neutral-50 rounded-65 my-2 shadow-3xl hover:bg-neutral-200 backdrop-blur-23">
+      <section class="font-inter text-center text-sm font-bold leading-normal text-neutral-1000">
+        Next
+      </section>
+    </button>
+
+    <!--Disabled Next button-->
+    <button
+      disabled
+      class="flex justify-center items-center cursor-not-allowed px-6 py-3 gap-2.5 w-442 bg-neutral-50 rounded-65 my-2 shadow-3xl hover:bg-neutral-200 disabled:opacity-50 backdrop-blur-23">
+      <section class="font-inter text-center text-sm font-bold leading-normal text-neutral-1000">
+        Next
+      </section>
+    </button>
+
+    <!--Following Button-->
+    <button
+      class="inline-flex justify-center items-center px-4 py-1.5 gap-2.5 border border-solid border-color rounded-65 my-2 shadow-3xl backdrop-blur-23"
+    >
+      <section
+        class="font-inter text-center text-14 font-bold text-neutral-50 leading-normal"
+      >
+        Following
+      </section>
+      <br />
+    </button>
+
+    <!--Large Post button -->
+    <button
+      class="flex justify-center items-center p-10 w-442 bg-twitterblue hover:bg-twitterblue_for_hover gap-2.5 rounded-full my-2 mr-2"
+    >
+      <section
+        class="font-inter text-twitterwhite text-base font-bold leading-normal"
+      >
+        Post
+      </section>
+    </button>
+
+    <!--Large Disabled Post button -->
+    <button disabled class="flex justify-center items-center p-10 w-442 cursor-not-allowed bg-twitterblue disabled:opacity-50 hover:bg-twitterblue_for_hover gap-2.5 rounded-full my-2 mr-2">
+      <section class="font-inter text-twitterwhite text-base font-bold leading-normal">Post</section>
+    </button>
+
+    <div class="flex">
+      <!--Selcted Home icon -->
+      <img src="../public/images/state-selected.svg" class="w-6 h-6 m-1 shrink-0" />
+
+      <!--Selcected Profile Icon-->
+      <img src="/public/images/state-selectedp.svg" class="w-6 h-6 m-1 shrink-0" />
+    </div>
+
+    <div class="flex">
+      <!--Not Selected Home Icon-->
+      <img
+        src="../public/images/state-not-selected.svg" class="w-6 h-6 m-0.5 shrink-0"/>
+      
+      <!--Not Selected Profile Icon-->
+      <img src="/public/images/group.svg" class="w-6 h-6 m-0.5 shrink-0" />
+    </div>
+
+    <div class="flex border-b w-598 h-58 justify-center items-center px-20 text-inter border-neutral-700">
+      <div class="flex flex-col justify-center items-center relative hover:bg-neutral-800 w-1/2 text-center cursor-pointer">
+        <div class="flex items-end text-neutral-50 py-4 font-medium text-base">For you</div>
+        <div class=" bg-twitterblue w-14 rounded-full h-1 absolute bottom-0"></div>
+      </div>
+      <div class="flex flex-col justify-center items-center relative hover:bg-neutral-800 w-1/2 text-center cursor-pointer">
+        <div class="flex items-end text-neutral-50 py-4 font-medium text-base">Following</div>
+        <div class="w-14 rounded-full h-1 absolute bottom-0"></div>
+      </div>
+    </div>
+    <!--ASSIGNMENT 1.2-->
+
+    <h2 class=" m-3 text-center font-bold bg-twitterblue text-neutral-1000">
+      Assignment 1.2
+    </h2>
+    <div class="flex flex-row">
+      <!--Label Input Button-->
+    <section class="flex justify-start flex-wrap ">
+      <fieldset class="flex-shrink-0 m-2 mb-5 w-426 px-3 py-4 border border-neutral-500 rounded-sm focus-within:border-twitterblue">
+        <legend class="text-neutral-500 font-medium text-xs group-focus-within:bg-twitterblue">
+            <div class="px-2">
+                Label
+            </div>
+        </legend>
+        <div class="flex justify-around">
+            <input type="email" placeholder="Label" class=" text-xl bg-inherit cursor-text w-full focus:outline-none text-neutral-50 placeholder:text-neutral-500">
+            <img src="/public/images/icon.svg" alt="correct-icon"  class="flex shrink-0 w-6 h-6">
+        </div>
+    </fieldset>
+    </section>
+    <!--Tweet Button-->
+    <section class="flex justify-start mt-7 ml-3 items-center">
+      <div class="flex self-stretch shrink-0 w-434 items-center">
+        <img src="/public/images/user-avatar.jpg" class="w-9 h-9 rounded-full bg-inherit bg-cover flex shrink-0">
+        <input type="text" placeholder="What's Happening?" class="mx-2 bg-inherit placeholder:text-neutral-600 cursor-text text-neutral-50 font-inter leading-normal font-normal focus:outline-none">
+      </div>
+    </section>
+
+    <!--Search Button-->
+    <div class="flex mt-6 group shrink-0 focus-within:ring-1 mb-3 mt-4 focus-within:ring-twitterblue py-2.5 pl-4 pr-247 w-348 h-39 gap-15 items-start border border-transparent bg-searchbarfill focus-within:border-twitterblue rounded-full">
+      <img src="/public/images/dark-theme-search-groupS.svg" alt="search-icon" class="w-auto h-4 shrink-0">
+      <input type="text" placeholder="Search" class="bg-inherit font-inter font-normal focus:outline-none w-auto h-4 text-neutral-50 placeholder:text-neutral-600 focus:outline-none leading-normal">
+    </div>
+    </div>
+
+    <h2 class="bg-twitterblue my-3 font-bold text-center">Assignment 1.3</h2>  
+    <!--Card Components-->
+    <div class=" bg-slate-700 flex flex-col flex-wrap bg-contain">
+      <!--Tweet Input-->
+      <div class="py-2.5 px-4 ">
+        <textarea placeholder="input tweet" class="inline-flex w-512 h-355 px-4 py-2.5 flex-col focus:outline-none placeholder:text-neutral-700 text-neutral-50 rounded-2xl  bg-neutral-1000 "></textarea>
+      </div>
+
+      <!--Header-->
+      <div class="m-3 bg-black rounded-md h-56 w-482">
+        <div class="flex py-2.5 px-4 gap-2.5 px-10 py-2.5 text-neutral-50 items-center ">
+          <img src="/public/images/signup-x.svg" alt="close" class="mr-5">
+          <div class="text-bold mr-5 py-3 px-4 gap-4 flex items-center font-inter leading-normal">Header</div>
+        </div>
+      </div>
+
+    <!--Card-->
+    <div class="m-3 bg-black rounded-md h-56 w-482">
+      <div class="flex py-2.5 px-4 gap-2.5 px-10 py-2.5 text-neutral-50 items-center ">
+        <img src="/public/images/signup-x.svg" alt="close" class="mr-5">
+      </div>
+    </div>
+    </div>
+
+    <h2 class="bg-twitterblue my-3 text-center font-bold">Assignment 1.4<h2>
+      <!--Tweet-->
+      <div class="flex p-4 bg-slate-800 justify-center">
+        <section class="flex items-start gap-2.5 w-598 py-2 px-4 border-b border-b-neutral-700 bg-neutral-1000 border-solid">
+          <img src="/public/images/user-avatart.png" alt="profile pic" class="w-12 h-12 shrink-0">
+          <div class="ml-4">
+            <div class="flex text-neutral-50">
+              <div class="font-semibold leading-normal font-inter mr-2">Name</div>
+              <div class="font-normal leading-normal text-neutral-500  font-inter mr-1">@handle</div>
+              <div class="font-normal leading-normal text-neutral-500  font-inter mr-1">.</div>
+              <div class="font-normal leading-normal text-neutral-500  font-inter mr-1">10h</div>
+            </div>
+            <p class=" -mt-1 text-neutral-50">
+              Building projects and learning gets easier when you have a community.
+              <br class=" mt-1.5">
+              And also if you have the right mentors.
+              <br class="mt-1.5">
+              Inshort I am talking about 100x AI accelerated cohort where I am learning
+              from the best, I joined the foundation group and learnt the basics of HTML, CSS and JS,
+              now building the next biggest microblogging platform.
+            </p>
+            <div class="flex justify-between mt-4">
+              <div class="flex items-end">
+                <button>
+                  <img src="/public/images/comment.svg">
+                </button>
+                <div class=" ml-1 text-xs text-neutral-50">11</div>
+              </div>
+              <div class="flex items-end">               
+                <button>
+                  <img src="/public/images/group-26840.svg">
+                  </button>
+                  <div class=" ml-1 text-xs text-neutral-50">270</div>
+              </div>
+              <div class="flex items-end">
+                <button>
+                  <img src="/public/images/heart.svg">
+                </button>
+                <div class=" text-xs ml-1 text-neutral-50">1869</div>
+              </div>
+              <div class="flex items-end">
+                <button>
+                  <img src="/public/images/vector.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </body>
+</html>
